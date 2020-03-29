@@ -10,6 +10,7 @@ import Private from "./Private";
 import Courses from "./Courses";
 import PrivateRoute from "./PrivateRoute";
 import AuthContext from "./AuthContext";
+import GitHub from "./GitHub/Search";
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class App extends Component {
           />
           <PrivateRoute path="/profile" component={Profile} />
           <Route path="/public" component={Public} />
+          <Route path="/github" component={GitHub} />
           <PrivateRoute path="/private" component={Private} />
           <PrivateRoute
             path="/courses"

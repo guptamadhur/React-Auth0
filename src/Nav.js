@@ -15,6 +15,9 @@ const Nav = props => {
         <li>
           <Link to="/public">Public</Link>
         </li>
+        <li>
+          <Link to="/github">Git Hub</Link>
+        </li>
         {isAuthenticated() && (
           <li>
             <Link to="/private">Private</Link>
