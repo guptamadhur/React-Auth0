@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Profile from './Profile';
-import style from "./profile.scss";
+import "./index.scss";
 import axios from "axios";
 
 export default class Search extends Component {

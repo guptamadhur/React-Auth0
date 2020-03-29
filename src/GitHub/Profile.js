@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "./profile.scss";
+import "./index.scss";
 
 const Profile = props => {
     const profile = props;
@@ -19,6 +19,7 @@ const Profile = props => {
 };
 
 Profile.propTypes = {
+    profile: PropTypes.object.isRequired
 };
 
 export default Profile;
