@@ -2,10 +2,18 @@
   max-width: 500px;
   margin: 0 auto;
 
-  .help {
+  .help,
+  .start-new {
     color: #666;
     margin: 10px;
     text-align: center;
+  }
+  .start-new {
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid #4e4e4e;
+    background: #4e4e4e;
   }
 
   .container {
@@ -60,5 +68,11 @@
     color: #666;
     margin-top: 3px;
     margin-left: 3px;
+    span {
+      font-size: 1rem;
+      &.red {
+        color: red;
+      }
+    }
   }
 }
