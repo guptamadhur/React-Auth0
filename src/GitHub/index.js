@@ -3,7 +3,7 @@ import Profile from './Profile';
 import "./index.scss";
 import axios from "axios";
 
-export default class Search extends Component {
+export default class GitHub extends Component {
     constructor(props) {
         super(props);
         this.state = {
